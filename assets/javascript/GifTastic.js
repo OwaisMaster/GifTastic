@@ -7,7 +7,7 @@ function loadButtons() {
     for (var i = 0; i < topics.length; i++) {
         var topic = topics[i];
         //Adds button with id and click event to #Buttons div
-        $('#Buttons').append("<button id=\"GifButton" + i + "\" onclick=\"Click('" + topic + "');\">" + topic + "</button>");
+        $('#Buttons').append("<button id=\"GifButton" + i + "\" onclick=\"Click('" + topic + "');\">" + topic + "</button><span> </span>");
     
     }
 }
@@ -54,6 +54,7 @@ function Click(query) {
             gifDiv.append(gif);
             //Appends the new Div under the Gifs div
             $('#Gifs').prepend(gifDiv);
+            document.getElementById('instru').style.display = "block";
         }
     })
 }

@@ -14,18 +14,43 @@
 </head>
 
 <body>
-    <div id="Buttons">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>GifTastic</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+            </div>
+            <div class="col-8">
+                <div class=Buttons id="Buttons">
+                </div>
+            </div>
+            <div class="col-2">
+
+            </div>
+        </div>
     </div>
     <br>
-    <form>
-        <span id="Add">Add new button: <input id='input' type='text'><input id='add-button' value='Add Button'
-                type="submit"></span>
-    </form>
+    <div class="row">
+        <div class="col-12">
+            <form>
+                <span id="Add">Add new button: <input id='input' type='text'>
+
+                    <input id='add-button' value='Add Button' type="submit"></span>
+        </div>
+
+        </form>
+    </div>
     <br>
+    <div id="instru">Click to play or stop the gif</div>
     <div id="Gifs">
+    </div>
     </div>
 
     <script type="text/javascript">
+        $('#instru').hide();
         loadButtons();
     </script>
 </body>
