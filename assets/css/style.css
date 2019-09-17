@@ -1,6 +1,7 @@
 body {
-    background-image: url("../images/background2.gif");
+    background-image: url("../images/background4.gif");
     background-size: cover;
+    background-size: 100%;
     color: white;
     
   
@@ -23,8 +24,15 @@ form {
 #instru {
     text-align: center;
     font-weight: bold;
+    background-color: black;
 }
 
 #Gifs {
     text-align: center;
+}
+
+.gif {
+    float: left;
+    margin: 10px 10px 10px 10px;
+    background-color: rgb(77, 75, 73);
 }
