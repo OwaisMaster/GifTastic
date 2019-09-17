@@ -1,4 +1,4 @@
-var topics = ['Dog Memes', 'Cars', 'Drones', 'Programmer Memes', 'Cats', 'Street Racing',];
+var topics = ['Dog Memes', 'Cars', 'Tokyo Drift', 'Drones', 'Programmer Memes', 'Cats', 'Street Racing',];
 
 function loadButtons() {
     //Removes eveything in div with Buttons id
